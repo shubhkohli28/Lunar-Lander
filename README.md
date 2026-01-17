@@ -7,6 +7,8 @@ The agent learns optimal landing behavior through reinforcement learning by inte
 
 The entire pipeline is implemented from scratch in **PyTorch**, following best practices for stability, reproducibility, and clean engineering suitable for research and production-grade portfolios.
 
+The implementation is provided as a well-documented Jupyter Notebook for clarity and ease of reproducibility.
+
 ---
 
 ## Problem Description
@@ -109,19 +111,17 @@ Recorded evaluation videos are included for qualitative validation.
 
 ## Project Structure
 
-lunar-lander-dqn/
+Lunar-Lander/
 │
-├── agent/
-│   ├── q_network.py
-│   ├── replay_buffer.py
+├── README.md
+├── requirements.txt
 │
-├── train.py
-├── evaluate.py
-├── utils.py
+├── notebooks/
+│   └── dqn_lunarlander_training.ipynb
 │
 ├── videos/
-├── requirements.txt
-└── README.md
+│   ├── dqn_lunarlander_success.mp4
+│   └── dqn_lunarlander_early_training.mp4
 
 ---
 
